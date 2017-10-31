@@ -1,11 +1,0 @@
-€}q(Urango.tests]Urango.admin]Urango.views]q(UindexqUaboutqeUmanage]Utango_with_django_project]Urango]Utango_with_django_project.wsgi]qUapplicationqaU
-rango.apps]qURangoConfigqaUtango_with_django_project.urls]q	Uurlpatternsq
-aU"tango_with_django_project.settings]q(U	DATABASESqUROOT_URLCONFqULANGUAGE_CODEqUUSE_I18NqU	MEDIA_DIRqU
-SECRET_KEYqUBASE_DIRqU	TEMPLATESqU	TIME_ZONEqUWSGI_APPLICATIONqUALLOWED_HOSTSqUAUTH_PASSWORD_VALIDATORSqU
-STATIC_DIRqU
-STATIC_URLqUUSE_L10NqUDEBUGqUUSE_TZqUINSTALLED_APPSqU
-MEDIA_ROOTqU
-MIDDLEWAREqUSTATICFILES_DIRSq U	MEDIA_URLq!eUshutil]q"(Ucopyfileq#Uignore_patternsq$Ucopytreeq%Uget_archive_formatsq&Ucopyfileobjq'Uregister_archive_formatq(Ucopymodeq)Umake_archiveq*Umoveq+Uunregister_archive_formatq,Urmtreeq-UErrorq.Ucopyq/U	ExecErrorq0Ucopy2q1USpecialFileErrorq2Ucopystatq3UWindowsErrorq4eUos]q5(Upopen4q6Uexecleq7Upopen3q8USEEK_CURq9Uspawnlpq:Uexeclpq;Uenvironq<Uspawnvpq=Uspawnlq>Uexecvpq?Umakedirsq@UlinesepqAUP_WAITqBUspawnvqCUspawnveqDUexecvpeqEUunsetenvqFUSEEK_SETqGUgetenvqHUpopen2qIUwalkqJUspawnleqKUexeclqLUnameqMUSEEK_ENDqNUspawnlpeqOU	P_NOWAITOqPUP_NOWAITqQU
-removedirsqRUrenamesqSUspawnvpeqTUexeclpeqUeU
-rango.urls]qVh
-aUrango.migrations]Urango.models]u.
