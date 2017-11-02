@@ -1,5 +1,11 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from .models import Category, Page
+from .forms import CategoryForm
+
+
+def about(request):
+    context = {'myName': 'NoobleeGt'}
+    return render(request, 'rango/about.html', context)
 
 
 def index(request):
@@ -10,6 +16,20 @@ def index(request):
         'pages': page_list
     }
     return render(request, 'rango/index.html', context_dict)
+
+
+def add_category(request):
+    form = CategoryForm
+
+    if request.method == 'POST':
+        form = CategoryForm(request.POST)
+        if form.is_valid():
+            form.save(commit=True)
+            return redirect('rango:index')
+        else:
+            print(form.errors)
+
+    return render(request, 'rango/add_category.html', {'form': form})
 
 
 def show_category(request, category_name_slug):
@@ -24,8 +44,3 @@ def show_category(request, category_name_slug):
         context_dict['category'] = None
 
     return render(request, 'rango/category.html', context_dict)
-
-
-def about(request):
-    context = {'myName': 'NoobleeGt'}
-    return render(request, 'rango/about.html', context)
