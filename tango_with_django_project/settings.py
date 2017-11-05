@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 ]
 
+LOGIN_URL = '/rango/login/'
+
 MEDIA_ROOT = MEDIA_DIR
 MEDIA_URL = '/media/'
 
@@ -109,6 +111,9 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+AUTHENTICATION_BACKENDS = [
+    'django.contrib.auth.backends.AllowAllUsersModelBackend'
+]
 
 # Internationalization
 # https://docs.djangoproject.com/en/1.11/topics/i18n/
