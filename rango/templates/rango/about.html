@@ -12,4 +12,6 @@
   <div>
     <img src="{{ MEDIA_URL }}cat.jpeg" alt="Image showing a cat."/>
   </div>
+  <div>
+    <p>You have visited this site {{ visits }} time{{ visits|pluralize }}</p>
 {% endblock %}
